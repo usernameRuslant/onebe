@@ -1,9 +1,9 @@
-import { Router } from 'express';
-import authenticate from '../middleware/authenticate.js';
-import { getCurrentUser } from '../controllers/userControllers.js';
+// import { Router } from 'express';
+// import authenticate from '../middleware/authenticate.js';
+// import { getCurrentUser } from '../controllers/userControllers.js';
 
-const userRoutes = Router();
+// const userRoutes = Router();
 
-userRoutes.get('me', authenticate, getCurrentUser);
+// userRoutes.get('me', authenticate, getCurrentUser);
 
-export default userRoutes;
+// export default userRoutes;
